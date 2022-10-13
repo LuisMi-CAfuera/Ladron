@@ -8,7 +8,10 @@ class Mochila{
 
     }
 }
-
+class Objetos{
+    var valor : Int = 0
+    var peso : Int = 0
+}
 
 
 
