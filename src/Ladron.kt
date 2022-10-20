@@ -31,10 +31,10 @@ fun main(){
     var art2 : ArrayList<Float> = arrayListOf<Float>()
     var cont = 0
 
-        art.forEach {
-            art2[cont]= (it.valor/it.peso).toFloat()
-            cont++
-        }
+    art.forEach {
+        art2[cont]= (it.valor/it.peso).toFloat()
+        cont++
+    }
 
 
     art2.forEach{
