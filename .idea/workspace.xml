@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa96c72-e43a-4aa1-9c29-542775abeeef" name="Changes" comment="l">
+    <list default="true" id="daa96c72-e43a-4aa1-9c29-542775abeeef" name="Changes" comment="Ejercicio Mochila commit 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ladron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ladron.kt" afterDir="false" />
     </list>
@@ -59,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665663472071</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ejercicio Mochila commit 1">
+      <created>1666263458356</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666263458356</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ejercicio Mochila commit 1">
+      <created>1666263706373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666263706373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +89,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="l" />
-    <option name="LAST_COMMIT_MESSAGE" value="l" />
+    <MESSAGE value="Ejercicio Mochila commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Mochila commit 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

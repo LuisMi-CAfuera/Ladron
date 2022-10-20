@@ -1,11 +1,17 @@
-class Mochila{
-    var pesoMax : Int = 10
+class Personaje{
+    var nombre = "Pepito"
+    var mochila : Double = 10.0
+    var perfil = "Ladron"
 
-    constructor(pesoMax: Int) {
-        this.pesoMax = pesoMax
-    }
+
     constructor(){
 
+    }
+
+    constructor(nombre: String, mochila: Double, perfil: String) {
+        this.nombre = nombre
+        this.mochila = mochila
+        this.perfil = perfil
     }
 }
 class Objetos{
@@ -26,19 +32,37 @@ class Objetos{
 
 fun main(){
 
-    var mochila : ArrayList<Mochila> = arrayListOf<Mochila>()
+    var mochila = Personaje()
     var art = arrayOf(Objetos(30,3),Objetos(20,7),Objetos(20,3),Objetos(50,4),Objetos(30,8))
     var art2 : ArrayList<Float> = arrayListOf<Float>()
-    var cont = 0
+
 
     art.forEach {
-        art2[cont]= (it.valor/it.peso).toFloat()
-        cont++
+        art2.add( (it.valor/it.peso).toFloat())
     }
 
 
     art2.forEach{
-        print(it)
+        println(it)
     }
 
+
+
+}
+
+
+
+
+
+fun Distribuir(art2 : ArrayList<Double>,art : Array<Objetos>,mochila : Personaje){
+    var cont = 0
+    val PESOMAX = 10
+
+    art2.forEach{
+        for (p in art2) {
+            if(it >= p && (art[cont].peso + mochila.mochila) <= PESOMAX){
+
+            }
+        }
+    }
 }
