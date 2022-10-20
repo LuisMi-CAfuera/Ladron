@@ -1,3 +1,5 @@
+import jdk.incubator.vector.DoubleVector
+
 class Personaje{
     var nombre = "Pepito"
     var mochila : Double = 10.0
@@ -32,13 +34,13 @@ class Objetos{
 
 fun main(){
 
-    var mochila = Personaje()
-    var art = arrayOf(Objetos(30,3),Objetos(20,7),Objetos(20,3),Objetos(50,4),Objetos(30,8))
-    var art2 : ArrayList<Float> = arrayListOf<Float>()
+    var ladron = Personaje("Jack",10.0,"ladron")
+    var art = arrayOf(Objetos(30,3),Objetos(20,7),Objetos(20,3),Objetos(50,10),Objetos(30,8))
+    var art2 : ArrayList<Double> = arrayListOf<Double>()
 
 
     art.forEach {
-        art2.add( (it.valor/it.peso).toFloat())
+        art2.add( (it.valor/it.peso).toDouble())
     }
 
 
@@ -46,7 +48,7 @@ fun main(){
         println(it)
     }
 
-
+    Distribuir(art2,art,ladron)
 
 }
 
@@ -54,15 +56,18 @@ fun main(){
 
 
 
-fun Distribuir(art2 : ArrayList<Double>,art : Array<Objetos>,mochila : Personaje){
-    var cont = 0
-    val PESOMAX = 10
+fun Distribuir(art2 : ArrayList<Double>,art : Array<Objetos>,ladron : Personaje){
+    var pesoactual = 0
+    val PESOMAX = ladron.mochila
+    var mochila = ArrayList<Objetos>()
+    var mayorratio = 0.0
 
-    art2.forEach{
-        for (p in art2) {
-            if(it >= p && (art[cont].peso + mochila.mochila) <= PESOMAX){
+    while(pesoactual < ladron.mochila){
 
-            }
-        }
     }
+
+
+
+
+    println("Peso final de la mochila" + ladron.mochila)
 }

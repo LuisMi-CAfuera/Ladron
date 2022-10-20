@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa96c72-e43a-4aa1-9c29-542775abeeef" name="Changes" comment="Ejercicio Mochila commit 1">
+    <list default="true" id="daa96c72-e43a-4aa1-9c29-542775abeeef" name="Changes" comment="Ejercicio Mochila commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ladron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ladron.kt" afterDir="false" />
     </list>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666263706373</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ejercicio Mochila commit 2">
+      <created>1666265582195</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666265582195</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,7 +97,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="l" />
     <MESSAGE value="Ejercicio Mochila commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Mochila commit 1" />
+    <MESSAGE value="Ejercicio Mochila commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Mochila commit 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
