@@ -60,9 +60,17 @@ fun Distribuir(art2 : ArrayList<Double>,art : Array<Objetos>,ladron : Personaje)
     var pesoactual = 0
     val PESOMAX = ladron.mochila
     var mochila = ArrayList<Objetos>()
-    var mayorratio = 0.0
+    var mayorratio : Objetos
+    var cont=0
 
     while(pesoactual < ladron.mochila){
+
+        mayorratio = art.
+
+        if((art[cont].peso + pesoactual) < PESOMAX){
+            mochila.add(art[])
+
+        }
 
     }
 
