@@ -46,8 +46,6 @@ fun main(){
 
 
 
-
-
 fun Distribuir(art : ArrayList<Objetos>,ladron : Personaje){
     var pesoactual = 0
     val PESOMAX = ladron.mochila
