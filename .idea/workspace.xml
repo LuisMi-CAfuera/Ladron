@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daa96c72-e43a-4aa1-9c29-542775abeeef" name="Changes" comment="Ejercicio Mochila commit 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ladron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ladron.kt" afterDir="false" />
+    </list>
+    <list id="1059267d-fa37-4d12-a6e3-245378c93ec1" name="Changes by Rodrigo" comment="">
       <change beforePath="$PROJECT_DIR$/src/Ladron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ladron.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +23,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Ladron.kt">
+      <ranges>
+        <range start1="21" end1="22" start2="21" end2="22" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="26" end1="26" start2="26" end2="27" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
+        <range start1="27" end1="30" start2="28" end2="28" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
+        <range start1="37" end1="39" start2="35" end2="37" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
+        <range start1="50" end1="51" start2="48" end2="49" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="53" end1="56" start2="51" end2="52" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="57" end1="58" start2="53" end2="54" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="59" end1="60" start2="55" end2="58" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="61" end1="64" start2="59" end2="62" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="66" end1="66" start2="64" end2="67" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="67" end1="69" start2="68" end2="68" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
+        <range start1="71" end1="72" start2="70" end2="75" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,6 +54,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "last_opened_file_path": "C:/Users/AlumnoM/Documents/DAM2-PMDM/EjercicioClases2/src/CreacionJugadores_LuisMiguel_Bravo.kt"
   }
 }]]></component>

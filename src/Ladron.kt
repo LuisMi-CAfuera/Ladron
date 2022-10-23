@@ -19,7 +19,7 @@ class Personaje{
 class Objetos{
     var valor : Int = 0
     var peso : Int = 0
-    var ratio : Double = (valor/peso).toDouble()
+    var ratio : Double = 0.0
 
     constructor(valor: Int, peso: Int) {
         this.valor = valor
@@ -48,26 +48,33 @@ fun main(){
 
 
 
-fun Distribuir(art : Array<Objetos>,ladron : Personaje){
+fun Distribuir(art : ArrayList<Objetos>,ladron : Personaje){
     var pesoactual = 0
     val PESOMAX = ladron.mochila
-    var mochila = ArrayList<Objetos>()
-    var mayorratio : Objetos
-    var cont=0
+    var mochila = arrayListOf<Objetos>()
 
-    while(pesoactual < ladron.mochila){
+    art.sortByDescending { it.ratio }
 
-        mayorratio = art.
+    var cont : Int = 0
+    val tamanoOriginal : Int = art.size
+    while(pesoactual < PESOMAX && cont < tamanoOriginal){
 
-        if((art[cont].peso + pesoactual) < PESOMAX){
-            mochila.add(art[])
-
+        if((art[0].peso + pesoactual) < PESOMAX){
+            mochila.add(art[0])
+            pesoactual+= art[0].peso
         }
+
+        art.removeAt(0)
+        cont++
 
     }
 
 
 
 
-    println("Peso final de la mochila" + ladron.mochila)
+    println("Peso final de la mochila" + pesoactual)
+
+    mochila.forEach{
+        println("${it.valor},${it.peso},${it.ratio}")
+    }
 }
