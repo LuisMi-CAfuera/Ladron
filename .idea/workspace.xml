@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa96c72-e43a-4aa1-9c29-542775abeeef" name="Changes" comment="Ejercicio Mochila commit 3">
+    <list default="true" id="daa96c72-e43a-4aa1-9c29-542775abeeef" name="Changes" comment="Ejercicio Mochila commit 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ladron.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ladron.kt" afterDir="false" />
     </list>
@@ -26,18 +26,17 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/src/Ladron.kt">
       <ranges>
-        <range start1="21" end1="22" start2="21" end2="22" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
         <range start1="26" end1="26" start2="26" end2="27" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
         <range start1="27" end1="30" start2="28" end2="28" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
-        <range start1="37" end1="39" start2="35" end2="37" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
-        <range start1="50" end1="51" start2="48" end2="49" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
-        <range start1="53" end1="56" start2="51" end2="52" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
-        <range start1="57" end1="58" start2="53" end2="54" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
-        <range start1="59" end1="60" start2="55" end2="58" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
-        <range start1="61" end1="64" start2="59" end2="62" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
-        <range start1="66" end1="66" start2="64" end2="67" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
-        <range start1="67" end1="69" start2="68" end2="68" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
-        <range start1="71" end1="72" start2="70" end2="75" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="37" end1="39" start2="35" end2="38" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
+        <range start1="53" end1="53" start2="52" end2="54" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="55" end1="55" start2="56" end2="58" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="57" end1="57" start2="60" end2="62" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="59" end1="59" start2="64" end2="65" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="64" end1="64" start2="70" end2="72" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="68" end1="70" start2="76" end2="76" changelist="1059267d-fa37-4d12-a6e3-245378c93ec1" />
+        <range start1="72" end1="73" start2="78" end2="79" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
+        <range start1="75" end1="76" start2="81" end2="82" changelist="daa96c72-e43a-4aa1-9c29-542775abeeef" />
       </ranges>
     </file>
   </component>
@@ -109,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666267055488</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ejercicio Mochila commit 4">
+      <created>1666536667400</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666536667400</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ejercicio Mochila commit 4">
+      <created>1666536786000</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666536786000</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,7 +141,8 @@
     <MESSAGE value="Ejercicio Mochila commit 1" />
     <MESSAGE value="Ejercicio Mochila commit 2" />
     <MESSAGE value="Ejercicio Mochila commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Mochila commit 3" />
+    <MESSAGE value="Ejercicio Mochila commit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Mochila commit 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

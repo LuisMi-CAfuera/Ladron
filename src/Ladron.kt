@@ -51,17 +51,26 @@ fun Distribuir(art : ArrayList<Objetos>,ladron : Personaje){
     val PESOMAX = ladron.mochila
     var mochila = arrayListOf<Objetos>()
 
+
+    //Esto lo uso para ordenar de mayor a menor entonces no tengo que comerme la cabez haciendo nada mas por que luego borro el objeto y el siguiente ya es el segundo con mayor ratio
     art.sortByDescending { it.ratio }
 
+
+    //Estas dos variables las uso para la condicion del while una es para contar las veces que se hace que es el cont, y el tamañoOriginal es para sabe cuanto mide el arraylist
     var cont : Int = 0
     val tamanoOriginal : Int = art.size
+
+    //Aqui en pesoactual<PESOMAX eso para que el bucle siga y no supere al peso maximo de la mochila
     while(pesoactual < PESOMAX && cont < tamanoOriginal){
 
+        //Este if sirve para meter los objetos en la mochila y suma el peso de los objetos
         if((art[0].peso + pesoactual) < PESOMAX){
             mochila.add(art[0])
             pesoactual+= art[0].peso
         }
 
+
+        //Aqui borro el primer objeto asi directamente el siguiente ya lo coge y asi todo el rato
         art.removeAt(0)
         cont++
 
@@ -70,9 +79,9 @@ fun Distribuir(art : ArrayList<Objetos>,ladron : Personaje){
 
 
 
-    println("Peso final de la mochila" + pesoactual)
+    println("Peso final de la mochila " + pesoactual)
 
     mochila.forEach{
-        println("${it.valor},${it.peso},${it.ratio}")
+        println(" valor:${it.valor},peso:${it.peso},ratio:${it.ratio}")
     }
 }
